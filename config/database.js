@@ -12,6 +12,7 @@ const codewithDB =()=>{
     .catch((error)=>{
         console.log("DB facing issues");
         console.log(error);
+        console.log("Server");
         process.exit(1);
     })
         
